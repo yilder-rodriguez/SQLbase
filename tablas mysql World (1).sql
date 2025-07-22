@@ -1,4 +1,7 @@
+
 drop database mpcupcakes;
+=======
+
 
 create database mpcupcakes;
 
@@ -27,6 +30,11 @@ values ('Lola', 18, 'lola@gmail.com', (date'2007-06-18')
 insert into user (nombre, edad, correo, fecha_nacimiento)
 values ('DANIEL', 50, 'FELIPEOSPINOACOSTA@GMAIL.COM', (date'2006-12-11')
 );
+insert into user (nombre, edad, correo, fecha_nacimiento)
+values ('paula', 20, 'paula@gmail.com', (date'2002-08-04')
+);
+
+
 
 /*
 update user set nombre = 'Lola' where id = 2;
@@ -117,3 +125,4 @@ create procedure pa_borrar_usuarios(
 delimiter ;
 CALL pa_borrar_usuarios (9);
 */
+
