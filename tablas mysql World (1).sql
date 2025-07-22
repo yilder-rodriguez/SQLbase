@@ -37,6 +37,7 @@ values ('DANIEL', 50, 'FELIPEOSPINOACOSTA@GMAIL.COM', (date'2006-12-11')
 );
 insert into user (nombre, edad, correo, fecha_nacimiento)
 
+
 values ('paula', 20, 'paula@gmail.com', (date'2002-08-04')
 );
 
@@ -54,12 +55,23 @@ values ('Belman', 41, 'profe.glip@gmail.com', (date'1981-12-25')
 
 values ('Sebastian', 18, 'jaimisroa@gmail.com', (date'2006-08-21')
 );
+values ('Cesitar', 19, 'cesarcapacho10@gmail.com', (date'2006-02-06')
+);
 
+
+
+/*update user set nombre = 'Lola' where id = 2;
+=======
 values ('Michael', 19, 'michaeldavidreyrincon@gmail.com', (date'2006-04-03')
+);
+
+
+values ('paula', 20, 'paula@gmail.com', (date'2002-08-04')
 );
 
 /*
 update user set nombre = 'Lola' where id = 2;
+
 delete from user where id = 2;
 
 delete from user where id = 5;
