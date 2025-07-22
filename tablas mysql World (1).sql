@@ -34,6 +34,11 @@ insert into user (nombre, edad, correo, fecha_nacimiento)
 
 values ('paula', 20, 'paula@gmail.com', (date'2002-08-04')
 );
+insert into user (nombre, edad, correo, fecha_nacimiento)
+values ('Emily', 17, 'emilymunoz097@gmail.com', (date'2008-03-31')
+);
+
+
 
 values ('Belman', 41, 'profe.glip@gmail.com', (date'1981-12-25')
 );
@@ -130,4 +135,7 @@ delimiter ;
 CALL pa_borrar_usuarios (9);
 
 */
+
+
+
 
