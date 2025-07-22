@@ -1,4 +1,8 @@
 
+drop database mpcupcakes;
+=======
+
+
 create database mpcupcakes;
 
 use mpcupcakes;
@@ -24,7 +28,7 @@ insert into user (nombre, edad, correo, fecha_nacimiento)
 values ('Lola', 18, 'lola@gmail.com', (date'2007-06-18')
 );
 insert into user (nombre, edad, correo, fecha_nacimiento)
-values ('Rosa', 50, 'rosa@gmail.com', (date'1945-09-08')
+values ('DANIEL', 50, 'FELIPEOSPINOACOSTA@GMAIL.COM', (date'2006-12-11')
 );
 insert into user (nombre, edad, correo, fecha_nacimiento)
 values ('paula', 20, 'paula@gmail.com', (date'2002-08-04')
