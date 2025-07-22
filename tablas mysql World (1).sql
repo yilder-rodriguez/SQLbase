@@ -6,7 +6,7 @@ create table user (
 id int auto_increment primary key,
 nombre varchar(25) not null,
 edad int,
-correo varchar (30) not null, 
+correo varchar (31) not null, 
 fecha_nacimiento date
 );
 
@@ -25,7 +25,11 @@ values ('Lola', 18, 'lola@gmail.com', (date'2007-06-18')
 insert into user (nombre, edad, correo, fecha_nacimiento)
 values ('Rosa', 50, 'rosa@gmail.com', (date'1945-09-08')
 );
+insert into user (nombre, edad, correo, fecha_nacimiento)
+values ('Michael', 19, 'michaeldavidreyrincon@gmail.com', (date'2006-04-03')
+);
 
+/*
 update user set nombre = 'Lola' where id = 2;
 delete from user where id = 2;
 
@@ -113,4 +117,4 @@ create procedure pa_borrar_usuarios(
  end $
 delimiter ;
 CALL pa_borrar_usuarios (9);
-
+*/
