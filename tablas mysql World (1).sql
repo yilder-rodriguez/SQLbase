@@ -25,8 +25,11 @@ values ('Lola', 18, 'lola@gmail.com', (date'2007-06-18')
 insert into user (nombre, edad, correo, fecha_nacimiento)
 values ('Rosa', 50, 'rosa@gmail.com', (date'1945-09-08')
 );
+insert into user (nombre, edad, correo, fecha_nacimiento)
+values ('Cesitar', 19, 'cesarcapacho10@gmail.com', (date'2006-02-06')
+);
 
-update user set nombre = 'Lola' where id = 2;
+/*update user set nombre = 'Lola' where id = 2;
 delete from user where id = 2;
 
 delete from user where id = 5;
@@ -113,4 +116,4 @@ create procedure pa_borrar_usuarios(
  end $
 delimiter ;
 CALL pa_borrar_usuarios (9);
-
+*/
