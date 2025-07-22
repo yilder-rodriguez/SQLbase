@@ -11,7 +11,7 @@ create table user (
 id int auto_increment primary key,
 nombre varchar(25) not null,
 edad int,
-correo varchar (30) not null, 
+correo varchar (31) not null, 
 fecha_nacimiento date
 );
 
@@ -51,15 +51,20 @@ values ('Belman', 41, 'profe.glip@gmail.com', (date'1981-12-25')
 
 values ('Sebastian', 18, 'jaimisroa@gmail.com', (date'2006-08-21')
 );
-
-
 values ('Cesitar', 19, 'cesarcapacho10@gmail.com', (date'2006-02-06')
 );
 
+
+
 /*update user set nombre = 'Lola' where id = 2;
+=======
+values ('Michael', 19, 'michaeldavidreyrincon@gmail.com', (date'2006-04-03')
+);
+
 
 values ('paula', 20, 'paula@gmail.com', (date'2002-08-04')
 );
+
 /*
 update user set nombre = 'Lola' where id = 2;
 
@@ -149,8 +154,5 @@ create procedure pa_borrar_usuarios(
  end $
 delimiter ;
 CALL pa_borrar_usuarios (9);
-
 */
-
-
-
+*/
